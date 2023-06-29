@@ -11,4 +11,32 @@
 🌐 <a href='https://southparkquotes.up.railway.app/'>https://southparkquotes.up.railway.app/</a>
 &nbsp;
 
-<h2>API Endpoints</h2>
+<h2>API</h2>
+<h3><b>GET /v1/quotes</b></h3>
+<p>Get a random quote:</p>
+<a href='https://southparkquotes.up.railway.app/v1/quotes'>https://southparkquotes.up.railway.app/v1/quotes</a>
+&nbsp;
+
+```
+[
+   {
+      "quote": "Don’t you dare call me a Cartman!",
+      "character": "Stan"
+   }
+]
+```
+
+
+<h3><b>GET /v1/quotes</b></h3>
+<p>Get a random quote:</p>
+<a href='https://southparkquotes.up.railway.app/v1/quotes'>https://southparkquotes.up.railway.app/v1/quotes</a>
+&nbsp;
+
+```
+[
+   {
+      "quote": "Don’t you dare call me a Cartman!",
+      "character": "Stan"
+   }
+]
+```
