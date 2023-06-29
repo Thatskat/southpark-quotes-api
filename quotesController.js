@@ -19,9 +19,9 @@ function getRandom(quoteNumber) {
 }
 
 function searchQuotes(searchTerm) {
-  const regEx = new RegExp(searchTerm, "i");
+  const regEx = new RegExp(searchTerm, 'i');
 
-  return quotes.filter(quote && quote.match(regEx));
+  return quotes.filter((quote) => quote && quote[1].match(regEx));
 }
 
 module.exports.getRandom = getRandom;

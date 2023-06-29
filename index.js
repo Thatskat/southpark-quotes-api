@@ -20,8 +20,8 @@ const limit = rateLimit({
   legacyHeaders: false,
 });
 
-// GET RANDOM FUNCTION FROM ./QUOTESCONTROLLER
-const { getRandom } = require("./quotesController");
+// GET RANDOM AND SEARCH QUOTES FUNCTION FROM ./QUOTESCONTROLLER
+const { getRandom, searchQuotes } = require("./quotesController");
 
 // IMPLEMENT MIDDLEWARE
 app.use(helmet());
@@ -35,7 +35,11 @@ app.all("*", function (req, res, next) {
 });
 
 app.get("/v1/quotes/:num?", function (req, res, next) {
-  res.send(getRandom(req.params.num || 1));
+  res.status(200).send(getRandom(parseInt(req.params.num, 10) || 1));
+});
+
+app.get("/v1/quotes/search/:term", (req, res) => {
+    res.status(200).send(searchQuotes(req.params.term));
 });
 
 // USE ERROR MIDDLEWARE
