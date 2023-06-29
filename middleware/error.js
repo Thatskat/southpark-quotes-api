@@ -19,3 +19,8 @@ const logger = winston.createLogger({
 });
 
 // EXPRESS ERRORS LOG
+function error(err, req, res, next){
+    logger.error(err.message, err);
+    res.status(500).send("Oh no! An error has occurred.");
+    return;
+}
