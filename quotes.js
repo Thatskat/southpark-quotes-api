@@ -155,5 +155,9 @@ module.exports = [
   {
     quote: "We got crappy jewelry, now all we need are some old people.",
     character: "Cartman"
+  },
+  {
+    quote: "All I think about is the problems our generation is inheriting.",
+    character: "Cartman"
   }
 ];
