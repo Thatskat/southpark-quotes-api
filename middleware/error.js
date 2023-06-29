@@ -31,3 +31,9 @@ process.prependListener("uncaughtException", (ex) => {
   logger.error(ex.message, ex);
   process.exit(1);
 });
+
+// UNCAUGHT ASYNC EXCEPTION
+process.on("unhandledRejection", (ex) => {
+  console.log("Oh no! An unknown error has occurred.");
+  logger.error(ex.message, ex);
+});
