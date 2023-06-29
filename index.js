@@ -9,6 +9,9 @@ const helmet = require("helmet");
 const cors = require("cors");
 const rateLimit = require("express-rate-limit");
 
+// ERROR MIDDLEWARE IMPORT
+const error = require('./middleware/error');
+
 // SET RATE LIMIT
 const limit = rateLimit({
   windowMs: 3 * 60,
@@ -35,8 +38,8 @@ app.get("/v1/quotes/:num?", function (req, res, next) {
   res.send(getRandom(req.params.num || 1));
 });
 
-// ERROR MIDDLEWARE
-
+// USE ERROR MIDDLEWARE
+app.use(error)
 
 // STORE CONFIG IN ENV VAR
 process.env["NODE_CONFIG_DIR"] = __dirname + "/config/";
