@@ -19,8 +19,15 @@ const logger = winston.createLogger({
 });
 
 // EXPRESS ERRORS LOG
-function error(err, req, res, next){
-    logger.error(err.message, err);
-    res.status(500).send("Oh no! An error has occurred.");
-    return;
+function error(err, req, res, next) {
+  logger.error(err.message, err);
+  res.status(500).send("Oh no! An error has occurred.");
+  return;
 }
+
+// UNCAUGHT SYNC EXCEPTION
+process.prependListener("uncaughtException", (ex) => {
+  console.log(ex);
+  logger.error(ex.message, ex);
+  process.exit(1);
+});
