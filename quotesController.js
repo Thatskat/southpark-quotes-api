@@ -18,4 +18,11 @@ function getRandom(quoteNumber) {
   return response;
 }
 
+function searchQuotes(searchTerm) {
+  const regEx = new RegExp(searchTerm, "i");
+
+  return quotes.filter(quote && quote.match(regEx));
+}
+
 module.exports.getRandom = getRandom;
+module.exports.searchQuotes = searchQuotes;
