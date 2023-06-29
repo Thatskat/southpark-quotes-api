@@ -14,8 +14,8 @@ function getRandom(quoteNumber) {
       Math.floor(Math.random() * availableResponse.length),
       1
     )[0];
-    return response;
   }
+  return response;
 }
 
 module.exports.getRandom = getRandom;
