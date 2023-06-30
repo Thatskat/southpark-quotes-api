@@ -145,19 +145,87 @@ module.exports = [
     character: "Kyle",
   },
   {
-    quote: "I just hope when she does her pageants, the judges don't take away points because she's got a pig heart.",
+    quote:
+      "I just hope when she does her pageants, the judges don't take away points because she's got a pig heart.",
     character: "Honey Boo Boo's Mom",
   },
   {
     quote: "My name's Honey Boo Boo, and I'm a beauty queen, bitches!",
-    character: "Honey Boo Boo"
+    character: "Honey Boo Boo",
   },
   {
     quote: "We got crappy jewelry, now all we need are some old people.",
-    character: "Cartman"
+    character: "Cartman",
   },
   {
     quote: "All I think about is the problems our generation is inheriting.",
+    character: "Cartman",
+  },
+  {
+    quote: "I don’t make the rules, I just think them up and write them down.",
+    character: "Cartman",
+  },
+  {
+    quote: "Oh, I’m sorry! I thought this was AMERICA!",
+    character: "Randy",
+  },
+  {
+    quote:
+      "If you don’t teach your children that Paris Hilton should be despised, how will they know?",
+    character: "Mr. Slave",
+  },
+  {
+    quote: "No, Kitty! That's a bad kitty!",
+    character: "Cartman",
+  },
+  {
+    quote: "You guys, I'm so seriously!",
+    character: "Cartman",
+  },
+  {
+    quote: "Oh, hamburgers!",
+    character: "Butters",
+  },
+  {
+    quote: "Hello there, children.",
+    character: "Chef",
+  },
+  {
+    quote: "TIMMAEH!",
+    character: "Timmy",
+  },
+  {
+    quote: "You're a towel.",
+    character: "Towelie",
+  },
+  {
+    quote:
+      "Life goes by pretty fast. If you don't stop and look around once in a while, and do whatever you want all the time, you could miss it.",
+    character: "Cartman",
+  },
+  {
+    quote:
+      "Well, I don't know if I ever told you this, Kenny, but I kinda always thought you were my best friend.",
+    character: "Cartman",
+  },
+  {
+    quote: "Do you know what I am saying?",
+    character: "Butters"
+  },
+  {
+    quote: "I love life.",
+    character: "Butters"
+  }, 
+  {
+    quote: "I’m not having a glass of wine, I’m having six. It’s called a tasting, and it’s classy.",
+    character: "Randy"
+  },
+  {
+    quote: "Kyle’s mom is a bitch!",
+    character: "Cartman"
+  },
+  {
+    quote: "I’m not just sure, I’m HIV positive.",
     character: "Cartman"
   }
 ];
