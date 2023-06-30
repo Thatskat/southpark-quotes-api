@@ -1,5 +1,3 @@
-"use strict";
-
 let quotes = require("./quotes.js");
 
 function getRandom(quoteNumber) {
