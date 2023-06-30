@@ -1,3 +1,5 @@
+<img src=''/>
+
 <h1 align='center'>South Park Quotes API</h1>
 <p align='center'>A pretty simple API to let you retrieve some of the best quotes from South Park, mmkay!</p>
 &nbsp;
@@ -53,4 +55,4 @@
 <p>Want to add some South Park quotes? All you need to do is simply add them in the quotes.js file and then create a pull request.</p>
 
 <h2>Credits</h2>
-<p>This quotes API was greatly inspired by <a href='https://github.com/shevabam/breaking-bad-quotes'>Breaking Bad Quotes</a> and <a href='https://github.com/jamesseanwright/ron-swanson-quotes'>Ron Swnson Quotes</a></p>
+<p>This quotes API was greatly inspired by <a href='https://github.com/shevabam/breaking-bad-quotes'>Breaking Bad Quotes</a> and <a href='https://github.com/jamesseanwright/ron-swanson-quotes'>Ron Swnson Quotes</a>.</p>
