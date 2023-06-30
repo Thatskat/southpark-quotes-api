@@ -1,4 +1,4 @@
-<img src=''/>
+<img src='https://github.com/Thatskat/southpark-quotes-api/blob/main/public/imgs/Southpark-api.jpg' alt='South Aprk API Header'/>
 
 <h1 align='center'>South Park Quotes API</h1>
 <p align='center'>A pretty simple API to let you retrieve some of the best quotes from South Park, mmkay!</p>
