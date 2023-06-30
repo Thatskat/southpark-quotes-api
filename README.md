@@ -7,7 +7,7 @@
  <img src='https://img.shields.io/github/issues-pr/Thatskat/southpark-quotes-api?style=for-the-badge&color=%23bbf7d0' alt='Southpark API Pull Requests'/>
 </div>
 &nbsp;
-<h2>Production Host and Demo</h2>
+<h2>Production Host</h2>
 🌐 <a href='https://southparkquotes.up.railway.app/'>https://southparkquotes.up.railway.app/</a>
 &nbsp;
 
