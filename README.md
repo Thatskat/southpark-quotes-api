@@ -62,7 +62,7 @@ Returns an array of `{number}` South Park quotes. E.g. `GET /v1/quotes/3`
 ```
 
 ## Contributions
-Want to add some South Park quotes? All you need to do is simply add them in the quotes.js file and then create a pull request.
+Want to add some South Park quotes? All you need to do is simply add them in the `quotes.js` file and then create a pull request.
 
 ## Credits
 This quotes API was greatly inspired by [Breaking Bad Quotes](https://github.com/shevabam/breaking-bad-quotes) and [Ron Swnson Quotes](https://github.com/jamesseanwright/ron-swanson-quotes).
