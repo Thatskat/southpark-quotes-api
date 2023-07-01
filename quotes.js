@@ -210,22 +210,137 @@ module.exports = [
   },
   {
     quote: "Do you know what I am saying?",
-    character: "Butters"
+    character: "Butters",
   },
   {
     quote: "I love life.",
-    character: "Butters"
-  }, 
+    character: "Butters",
+  },
   {
-    quote: "I’m not having a glass of wine, I’m having six. It’s called a tasting, and it’s classy.",
-    character: "Randy"
+    quote:
+      "I’m not having a glass of wine, I’m having six. It’s called a tasting, and it’s classy.",
+    character: "Randy",
   },
   {
     quote: "Kyle’s mom is a bitch!",
-    character: "Cartman"
+    character: "Cartman",
   },
   {
     quote: "I’m not just sure, I’m HIV positive.",
-    character: "Cartman"
-  }
+    character: "Cartman",
+  },
+  {
+    quote:
+      "The fireman is very magical. If you rub his helmet he spits in your eye.",
+    character: "Cartman",
+  },
+  {
+    quote:
+      "No, dude, independent films are those black-and-white hippie movies. They're always about gay cowboys eating pudding.",
+    character: "Cartman",
+  },
+  {
+    quote: "The only way to fight hate is with even more hate!",
+    character: "Cartman",
+  },
+  {
+    quote: "I'm not fat, I just have a sweet hockey body.",
+    character: "Cartman",
+  },
+  {
+    quote:
+      "Yeah, hippie! Go back to Woodstock if you don't want to shoot anything!",
+    character: "Cartman",
+  },
+  {
+    quote: "Go back to Endor, you stupid Wookie!",
+    character: "Cartman",
+  },
+  {
+    quote:
+      "I can't lose weight, Butters, because I'm not fat, I'm big-boned. You can't slim down bones, stupid!",
+    character: "Cartman",
+  },
+  {
+    quote:
+      "Dolphins, Eskimos, who cares? It's all a bunch of tree-hugging hippie crap.",
+    character: "Cartman",
+  },
+  {
+    quote: "Oh, my God, they killed Kenny!",
+    character: "Cartman",
+  },
+  {
+    quote: "Aw, it smells like Kenny's house in here!",
+    character: "Cartman",
+  },
+  {
+    quote: "They're not people! They're hippies!",
+    character: "Cartman",
+  },
+  {
+    quote:
+      "Too bad drinking Scotch isn't a paying job, or else Kenny's dad would be a millionaire.",
+    character: "Cartman",
+  },
+  {
+    quote:
+      "You do not say 'big silly goose,' you call him an asshole like a normal kid!",
+    character: "Randy",
+  },
+  {
+    quote:
+      "There's plenty of other interesting things you can do. Have you ever tried marijuana. Maybe it's time.",
+    character: "Randy",
+  },
+  {
+    quote:
+      "I'm not chugging beer! I'm sampling a flight of gluten-free German lagers with a French wine pairing! It's called a smorgaswein and it's elegantly cultural!",
+    character: "Randy",
+  },
+  {
+    quote: "This disease is just eating me up! I hate my illness!",
+    character: "Randy",
+  },
+  {
+    quote:
+      "The players should all wear bras! And instead of helmets, they should wear little tinfoil hats, 'cause, you know, it's the future and we shouldn't be so barbaric!",
+    character: "Randy",
+  },
+  {
+    quote: "Just gonna get a little bit of cancer, Stan. Tell Mom it's okay.",
+    character: "Randy"
+  },
+  {
+    quote: "Creme fraiche, Cafeteria Fraiche. Lalalalala fraiche. Ho ho hohoho.",
+    character: "Randy"
+  },
+  {
+    quote: "I'll make less money, sure, but ... as long as I buy everything at Wall-Mart, it'll all even out. Don't you see? Wall-Mart isn't our enemy, it's our neighborhood friend.",
+    character: "Randy"
+  },
+  {
+    quote: "God, why do the economically challenged always have to screw up everything?!",
+    character: "Randy"
+  },
+  {
+    quote: "Parents can be pretty cruel sometimes, dude. They get off on it.",
+    character: "Stan",
+  },
+  {
+    quote: "My Dad... He's kind of losing it. To be honest, I feel kind of bad for him.",
+    character: "Stan"
+  },
+  {
+    quote: "You don't suck at football, Butters. You suck at all sports!",
+    character: "Stan"
+  },
+  {
+    quote: "You're not Gene Hackman or that guy who played Napoleon Dynamite, but you're okay.",
+    character: "Stan"
+  },
+  {
+    quote: "In America, if something sucks, you're supposed to be able to get your money back!",
+    character: "Stan"
+  },
 ];
