@@ -21,7 +21,10 @@ const limit = rateLimit({
 });
 
 // GET RANDOM FUNCTION FROM ./QUOTESCONTROLLER
-const { getRandom } = require("./quotesController");
+const { getRandom, searchQuotes } = require("./quotesController");
+
+// IMPORT QUOTES ARRAY
+const quotes = require('./quotes');
 
 // IMPLEMENT MIDDLEWARE
 app.use(helmet());
@@ -37,6 +40,10 @@ app.all("*", function (req, res, next) {
 app.get("/v1/quotes/:num?", function (req, res, next) {
   res.send(getRandom(req.params.num || 1));
 });
+
+app.get("/v1/quotes/search/:term", function (req, res,) {
+  res.send(searchQuotes(quotes, req.params.term));
+})
 
 // USE ERROR MIDDLEWARE
 app.use(error)

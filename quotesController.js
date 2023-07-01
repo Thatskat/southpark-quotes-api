@@ -16,10 +16,27 @@ function getRandom(quoteNumber) {
   return response;
 }
 
-function searchQuotes(searchTerm) {
-  const regEx = new RegExp(searchTerm, "i");
+function filterIt(arr, searchTerm) {
+  return arr.filter(function (obj) {
+    return Object.keys(obj).some(function (key) {
+      return obj[key].includes(searchTerm);
+    });
+  });
+}
 
-  return quotes.filter(quote && quote.match(regEx));
+function searchQuotes(arr, searchTerm) {
+  let regex = new RegExp(searchTerm, "i");
+  regex = regex.toString().replace(/^\/|\/[a-z]*$/gi, "");
+
+  let lowercaseArr = arr.map(function (i) {
+    let lowercaseObjects = {};
+    Object.entries(i).forEach(function ([key, value]) {
+      lowercaseObjects[key] = value.toLowerCase();
+    });
+    return lowercaseObjects;
+  });
+
+  return filterIt(lowercaseArr, regex);
 }
 
 module.exports.getRandom = getRandom;
