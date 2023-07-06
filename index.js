@@ -32,9 +32,16 @@ app.use(cors());
 app.use(express.json());
 app.use(limit);
 
+// USE PUBLIC FOLDER
+app.use(express.static(__dirname + "/public"));
+
 app.all("*", function (req, res, next) {
   res.set("Access-Control-Allow-Origin", "*");
   next();
+});
+
+app.get("/", function (req, res) {
+  res.sendFile(__dirname + "/index.html");
 });
 
 app.get("/v1/quotes/:num?", function (req, res, next) {
