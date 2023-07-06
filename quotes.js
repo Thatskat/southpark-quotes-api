@@ -309,38 +309,99 @@ module.exports = [
   },
   {
     quote: "Just gonna get a little bit of cancer, Stan. Tell Mom it's okay.",
-    character: "Randy"
+    character: "Randy",
   },
   {
-    quote: "Creme fraiche, Cafeteria Fraiche. Lalalalala fraiche. Ho ho hohoho.",
-    character: "Randy"
+    quote:
+      "Creme fraiche, Cafeteria Fraiche. Lalalalala fraiche. Ho ho hohoho.",
+    character: "Randy",
   },
   {
-    quote: "I'll make less money, sure, but ... as long as I buy everything at Wall-Mart, it'll all even out. Don't you see? Wall-Mart isn't our enemy, it's our neighborhood friend.",
-    character: "Randy"
+    quote:
+      "I'll make less money, sure, but ... as long as I buy everything at Wall-Mart, it'll all even out. Don't you see? Wall-Mart isn't our enemy, it's our neighborhood friend.",
+    character: "Randy",
   },
   {
-    quote: "God, why do the economically challenged always have to screw up everything?!",
-    character: "Randy"
+    quote:
+      "God, why do the economically challenged always have to screw up everything?!",
+    character: "Randy",
   },
   {
     quote: "Parents can be pretty cruel sometimes, dude. They get off on it.",
     character: "Stan",
   },
   {
-    quote: "My Dad... He's kind of losing it. To be honest, I feel kind of bad for him.",
-    character: "Stan"
+    quote:
+      "My Dad... He's kind of losing it. To be honest, I feel kind of bad for him.",
+    character: "Stan",
   },
   {
     quote: "You don't suck at football, Butters. You suck at all sports!",
-    character: "Stan"
+    character: "Stan",
   },
   {
-    quote: "You're not Gene Hackman or that guy who played Napoleon Dynamite, but you're okay.",
-    character: "Stan"
+    quote:
+      "You're not Gene Hackman or that guy who played Napoleon Dynamite, but you're okay.",
+    character: "Stan",
   },
   {
-    quote: "In America, if something sucks, you're supposed to be able to get your money back!",
-    character: "Stan"
+    quote:
+      "In America, if something sucks, you're supposed to be able to get your money back!",
+    character: "Stan",
+  },
+  {
+    quote:
+      "Yeah, well just like the rest of us, you have to make choices with your money. Do you want a bike, or do you not want to be depressed?",
+    character: "Randy",
+  },
+  {
+    quote:
+      "Dude, this book says I don’t exist unless I think I do. But what if I don’t?",
+    character: "Kyle",
+  },
+  {
+    quote:
+      "It’s simple economics, son. I don’t understand it at all, but God, I love it!",
+    character: "Randy",
+  },
+  {
+    quote: "I made you eat your parents!",
+    character: "Cartman",
+  },
+  {
+    quote: "I see fried chicken... it's tender and it's fresh.",
+    character: "Cartman",
+  },
+  {
+    quote:
+      "This is a bunch of crap. I've been licking this carpet for three hours and I still don't feel like a lesbian.",
+    character: "Cartman",
+  },
+  {
+    quote: "I'm Scott Malkinson, I have diabetes.",
+    character: "Cartman",
+  },
+  {
+    quote:
+      "Oh yeah? I run with 12 gangs, and we only commit hate crimes. Whatever - I do what I want!",
+    character: "Cartman",
+  },
+  {
+    quote: "I'm not a monkey, I'm a woman!",
+    character: "Mr. Garrison",
+  },
+  {
+    quote:
+      "You can just hang around outside in the sun all day, tossing a ball around, or you can sit at your computer and do something that matters!",
+    character: "Cartman",
+  },
+  {
+    quote:
+      "I, like everyone with breast cancer, have something I want to get off my chest.",
+    character: "Cartman",
+  },
+  {
+    quote: "Your mother was worried sick and I was here drinking beer.",
+    character: "Randy",
   },
 ];
