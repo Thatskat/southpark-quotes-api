@@ -404,4 +404,8 @@ module.exports = [
     quote: "Your mother was worried sick and I was here drinking beer.",
     character: "Randy",
   },
+  {
+    quote: "I know enough to exploit it.",
+    character: "Cartman"
+  }
 ];
