@@ -32,7 +32,7 @@ app.use(cors());
 app.use(express.json());
 app.use(limit);
 
-fs.mkdirSync(logs, { recursive: true });
+fs.mkdir( __dirname + '/logs/', err => {})
 
 // USE PUBLIC FOLDER
 app.use(express.static(__dirname + "/public"));
