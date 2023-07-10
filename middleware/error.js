@@ -7,14 +7,14 @@ const logger = winston.createLogger({
   defaultMeta: { service: "SouthPark-Quotes" },
   transports: [
     new winston.transports.File({
-      filename: "/logs/error.log",
+      filename: "/Logs/error.log",
       level: "error",
     }),
     new winston.transports.File({
-      filename: "/logs/warnings.log",
+      filename: "/Logs/warnings.log",
       level: "warn",
     }),
-    new winston.transports.File({ filename: "/logs/combined.log" }),
+    new winston.transports.File({ filename: "/Logs/combined.log" }),
   ],
 });
 
