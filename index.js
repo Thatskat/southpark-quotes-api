@@ -3,6 +3,7 @@
 // IMPORT EXPRESS MODULE
 const express = require("express");
 const app = express();
+const fs = require("fs");
 
 // IMPORT MODULES
 const helmet = require("helmet");
