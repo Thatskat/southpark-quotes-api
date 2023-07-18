@@ -16,6 +16,8 @@
 
 ## Production Host
 
+Currently not deployed due to Railway update!!!
+
 🌐 [https://southparkquotes.up.railway.app/](https://southparkquotes.up.railway.app/)
 
 
