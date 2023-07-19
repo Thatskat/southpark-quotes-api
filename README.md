@@ -16,9 +16,7 @@
 
 ## Production Host
 
-Currently not deployed due to Railway update!!!
-
-🌐 [https://southparkquotes.up.railway.app/](https://southparkquotes.up.railway.app/)
+🌐 [https://southparkquotes.onrender.com/](https://southparkquotes.onrender.com/)
 
 
 ## API
@@ -27,7 +25,7 @@ Currently not deployed due to Railway update!!!
 ### `GET /v1/quotes`
 Get a random quote:
 
-> [https://southparkquotes.up.railway.app/v1/quotes](https://southparkquotes.up.railway.app/v1/quotes)
+> [https://southparkquotes.onrender.com/v1/quotes](https://southparkquotes.onrender.com/v1/quotes)
 
 
 ```
@@ -43,7 +41,7 @@ Get a random quote:
 ### `GET /v1/quotes/{number}`
 Returns an array of `{number}` South Park quotes. E.g. `GET /v1/quotes/3`
 
-> [https://southparkquotes.up.railway.app/v1/quotes/3](https://southparkquotes.up.railway.app/v1/quotes/3)
+> [https://southparkquotes.onrender.com/v1/quotes/3](https://southparkquotes.onrender.com/v1/quotes/3)
 
 
 ```
@@ -66,7 +64,7 @@ Returns an array of `{number}` South Park quotes. E.g. `GET /v1/quotes/3`
 ### `GET /v1/quotes/search/{searchTerm}`
 Returns an array that is either said by or includes the `{searchTerm}` from South Park quotes. E.g. `GET /v1/quotes/search/randy`
 
-> [https://southparkquotes.up.railway.app/v1/quotes/search/randy](https://southparkquotes.up.railway.app/v1/quotes/search/randy)
+> [https://southparkquotes.onrender.com/v1/quotes/search/randy](https://southparkquotes.onrender.com/v1/quotes/search/randy)
 
 
 ```
