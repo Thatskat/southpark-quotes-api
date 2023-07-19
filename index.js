@@ -3,15 +3,11 @@
 // IMPORT EXPRESS MODULE
 const express = require("express");
 const app = express();
-const fs = require("fs");
 
 // IMPORT MODULES
 const helmet = require("helmet");
 const cors = require("cors");
 const rateLimit = require("express-rate-limit");
-
-// ERROR MIDDLEWARE IMPORT
-const error = require('./middleware/error');
 
 // SET RATE LIMIT
 const limit = rateLimit({
