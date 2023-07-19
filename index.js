@@ -56,7 +56,7 @@ app.get("/v1/quotes/search/:term", function (req, res,) {
 })
 
 // USE ERROR MIDDLEWARE
-app.use(error)
+// app.use(error)
 
 // STORE CONFIG IN ENV VAR
 process.env["NODE_CONFIG_DIR"] = __dirname + "/config/";
