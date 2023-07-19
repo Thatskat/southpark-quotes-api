@@ -33,7 +33,7 @@ app.use(cors());
 app.use(express.json());
 app.use(limit);
 
-fs.mkdirSync(logs, { recursive: true });
+// fs.mkdirSync(logs, { recursive: true });
 
 // USE PUBLIC FOLDER
 app.use(express.static(__dirname + "/public"));
@@ -56,7 +56,7 @@ app.get("/v1/quotes/search/:term", function (req, res,) {
 })
 
 // USE ERROR MIDDLEWARE
-// app.use(error)
+app.use(error)
 
 // STORE CONFIG IN ENV VAR
 process.env["NODE_CONFIG_DIR"] = __dirname + "/config/";
