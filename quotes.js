@@ -407,5 +407,9 @@ module.exports = [
   {
     quote: "I know enough to exploit it.",
     character: "Cartman"
+  },
+  {
+    quote: "Sometimes the things we do don't matter right now. Sometimes they matter later. You have to care more about later sometimes, you know?",
+    character: "Stan"
   }
 ];
