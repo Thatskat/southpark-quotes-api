@@ -411,5 +411,53 @@ module.exports = [
   {
     quote: "Sometimes the things we do don't matter right now. Sometimes they matter later. You have to care more about later sometimes, you know?",
     character: "Stan"
+  },
+  {
+    quote: "Oh my god. Jay Leno's chin killed Kenny.",
+    character: "Stan"
+  },
+  {
+    quote: "Oh, the tears of unfathomable sadness! Yummy!",
+    character: "Cartman"
+  }, 
+  {
+    quote: "If irony was made of strawberries, we'd all be drinking a lot of smoothies right now.",
+    character: "Newscaster Ned"
+  }, 
+  {
+    quote: "Wow, cartoons are getting really dirty.",
+    character: "Stan"
+  }, 
+  {
+    quote: "What what WHAT?!?",
+    character: "Mrs. Broflovski"
+  },
+  {
+    quote: "I have never in my life done anything just for the money! If I'm lying may the Lord strike me down right now!",
+    character: "Cartman"
+  },
+  {
+    quote: "Cartman, that's the dumbest thing you've ever said... this week.",
+    character: "Kyle"
+  },
+  {
+    quote: "Hellp, Mrs. Brovlowski, this is Stan's mom. I was wondering if you might know why my son is trying to split his head open with an ice pick.",
+    character: "Sharon Marsh"
+  },
+  {
+    quote: "Well God, I guess you got me again, didn't you? Yeah, that was a good one, God. Hope it made you laugh, you sick bastard.",
+    character: "Cartman"
+  },
+  {
+    quote: "I got my period.",
+    character: "Cartman"
+  },
+  {
+    quote: "I'm so high man, I don't think I can take it.",
+    character: "Towelie"
+  },
+  {
+    quote: "Everything is back to normal. I-I think... I think I can go back to trying to destroy the world again",
+    character: "Butters"
   }
 ];
