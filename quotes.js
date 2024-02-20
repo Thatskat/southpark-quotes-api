@@ -2,6 +2,14 @@
 
 module.exports = [
   {
+    quote: "I'm not fat, I'm big-boned!",
+    character: "Cartman",
+  },
+  {
+    quote: "Oh, hamburgers!",
+    character: "Chef",
+  },
+  {
     quote: "I am a cop, and you will respect my authoritah!",
     character: "Cartman",
   },
