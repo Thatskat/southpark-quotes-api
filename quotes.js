@@ -2,6 +2,34 @@
 
 module.exports = [
   {
+    quote: "Christmas time is once a year, every critter holds it dear!",
+    character: "Mr. Hankey"
+  },
+  {
+    quote: "Howdy ho!",
+    character: "Mr. Hankey"
+  },
+  {
+    quote: "Don't forget to bring a towel!",
+    character: "Mr. Hankey"
+  },
+  {
+    quote: "I'm Professor Chaos, your worst nightmare! I'm the supervillain you can't stop!",
+    character: "Butters"
+  },
+  {
+    quote: "I'm just a little boy!",
+    character: "Butters"
+  },
+  {
+    quote: "I'm not just sure, I'm HIV positive!",
+    character: "Butters"
+  },
+  {
+    quote: "I'm just a little confused, you know?",
+    character: "Butters"
+  },
+  {
     quote: "I'm not fat, I'm big-boned!",
     character: "Cartman",
   },
